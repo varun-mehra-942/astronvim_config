@@ -6,6 +6,8 @@
 return {
   -- first key is the mode
   n = {
+
+  ["<F2>"] = { "<cmd>ToggleTerm<cr>", desc = "Toggle terminal" },
     -- second key is the lefthand side of the map
 
     -- navigate buffer tabs with `H` and `L`
@@ -34,6 +36,8 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
   },
   t = {
+    
+  ["<F2>"] ={ "<cmd>ToggleTerm<cr>", desc = "Toggle terminal"},
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
