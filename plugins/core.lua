@@ -25,6 +25,11 @@ return {
     end,
   },
   { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...},
+  {"NLKNguyen/papercolor-theme",lazy=false,priority=1000,opts=...,config=function(plugin,opts)end},
+{"srcery-colors/srcery-vim",lazy=false,priority=1000,opts=...,config=function(plugin,opts)end},
+
+
+
   -- {
   --   "windwp/nvim-autopairs",
   --   config = function(plugin, opts)
